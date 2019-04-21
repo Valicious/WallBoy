@@ -2,7 +2,6 @@
   <library name="jna-3.5.1">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/jna-3.5.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/platform-3.5.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -1,6 +1,9 @@
 package com.val.wallboy.model;
 
-public class Image {
+import java.io.FileNotFoundException;
+import java.io.Serializable;
+
+public class Image implements Serializable {
     public String id;
     public String width;
     public String height;
@@ -21,10 +24,13 @@ public class Image {
         this.url_image = url_image;
         this.url_thumb = url_thumb;
         this.url_page = url_page;
+        this.path = "";
     }
 
-    public String getPath() {
-        return path;
+    public String getPath() throws FileNotFoundException {
+        if (!path.equals(""))
+            return path;
+        throw new FileNotFoundException("The image does not exists");
     }
 
     public void setPath(String path) {

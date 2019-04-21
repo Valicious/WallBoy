@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="WallBoy:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="61e9f966-dd6c-4104-b7c9-eb7b24497ea5" name="Default Changelist" comment="" />
+    <list default="true" id="61e9f966-dd6c-4104-b7c9-eb7b24497ea5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/WallBoy_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/val/wallboy/ImageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/val/wallboy/User32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/val/wallboy/WallThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/val/wallboy/events/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/val/wallboy/events/PubSub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/val/wallboy/events/RunnableObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/val/wallboy/source/ImageDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/val/wallboy/utils/TrayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/val.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jna_3_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jna_3_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WallBoy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WallBoy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/temp.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/platform-3.5.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib/old/platform-3.5.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WallBoy/com/val/wallboy/Main$User32$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WallBoy/com/val/wallboy/Main$User32.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WallBoy/com/val/wallboy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WallBoy/com/val/wallboy/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WallBoy/com/val/wallboy/model/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WallBoy/com/val/wallboy/model/Image.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WallBoy/com/val/wallboy/source/SourceControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WallBoy/com/val/wallboy/source/SourceControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WallBoy/com/val/wallboy/tests/WinRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WallBoy/com/val/wallboy/tests/WindowsRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WallBoy/temp.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/val/wallboy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/val/wallboy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/val/wallboy/model/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/val/wallboy/model/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/val/wallboy/source/SourceControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/val/wallboy/source/SourceControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/val/wallboy/tests/WinRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/val/wallboy/tests/WindowsRegistry.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,48 +44,91 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-680604552">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="5" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="5" />
-          <entry key="java" value="23" />
+          <entry key="MF" value="1" />
+          <entry key="class" value="8" />
+          <entry key="java" value="54" />
+          <entry key="png" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="23" />
+          <entry key="CLASS" value="8" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="54" />
+          <entry key="Manifest" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2684" />
+          <entry key="java" value="6579" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2684" />
+          <entry key="JAVA" value="6579" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+            <state relative-caret-position="442">
+              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/ImageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/source/ImageDownloader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,22 +139,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/source/SourceControl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="391">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
               <folding>
-                <element signature="method#getWallpapers#0;class#SourceControl#0" />
-                <element signature="method#saveImage#0;class#SourceControl#0" />
-                <element signature="method#getInputStream#0;class#SourceControl#0" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/model/Image.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -93,7 +160,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>string</find>
+      <find>Image</find>
+      <find>image is now</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -115,13 +187,22 @@
         <option value="$PROJECT_DIR$/src/com/val/wallboy/model/Response.java" />
         <option value="$PROJECT_DIR$/src/com/val/wallboy/model/response/RootReponse.java" />
         <option value="$PROJECT_DIR$/src/com/val/wallboy/WallpaperChanger.java" />
-        <option value="$PROJECT_DIR$/src/com/val/wallboy/model/Image.java" />
         <option value="$PROJECT_DIR$/src/com/val/wallboy/CustomWally.java" />
         <option value="$PROJECT_DIR$/src/com/val/wallboy/WinRegistry.java" />
-        <option value="$PROJECT_DIR$/src/com/val/wallboy/source/SourceControl.java" />
         <option value="$PROJECT_DIR$/src/com/val/wallboy/WindowsRegistry.java" />
         <option value="$PROJECT_DIR$/src/com/val/wallboy/tests/WindowsRegistry.java" />
+        <option value="$PROJECT_DIR$/src/com/val/wallboy/User32.java" />
+        <option value="$PROJECT_DIR$/src/com/val/wallboy/utils/ImageDownloader.java" />
+        <option value="$PROJECT_DIR$/src/com/val/wallboy/events/PubSub.java" />
+        <option value="$PROJECT_DIR$/src/com/val/wallboy/events/Event.java" />
+        <option value="$PROJECT_DIR$/src/com/val/wallboy/utils/TrayIcon.java" />
+        <option value="$PROJECT_DIR$/src/com/val/wallboy/WallThread.java" />
+        <option value="$PROJECT_DIR$/src/com/val/wallboy/model/Image.java" />
+        <option value="$PROJECT_DIR$/src/com/val/wallboy/ImageController.java" />
         <option value="$PROJECT_DIR$/src/com/val/wallboy/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/val/wallboy/utils/TrayController.java" />
+        <option value="$PROJECT_DIR$/src/com/val/wallboy/source/SourceControl.java" />
+        <option value="$PROJECT_DIR$/src/com/val/wallboy/source/ImageDownloader.java" />
       </list>
     </option>
   </component>
@@ -132,10 +213,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="535" />
-    <option name="y" value="-17" />
+    <option name="x" value="646" />
+    <option name="y" value="107" />
     <option name="width" value="814" />
     <option name="height" value="772" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -152,11 +236,6 @@
             <path>
               <item name="WallBoy" type="b2602c69:ProjectViewProjectNode" />
               <item name="WallBoy" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WallBoy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WallBoy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -164,6 +243,13 @@
               <item name="WallBoy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="wallboy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WallBoy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WallBoy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wallboy" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WallBoy" type="b2602c69:ProjectViewProjectNode" />
@@ -179,39 +265,40 @@
               <item name="wallboy" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WallBoy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WallBoy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wallboy" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/Code/WallBoy/src/com/val/wallboy/source/SourceControl.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554637874912" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/platform-3.5.1.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555868135639" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jna-3.5.1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2229885" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Code\WallBoy\lib" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\WallBoy\lib\old" />
+      <recent name="D:\Code\WallBoy" />
+      <recent name="D:\Code\WallBoy\src" />
       <recent name="D:\Code\WallBoy\src\com\val\wallboy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\WallBoy\images" />
+      <recent name="D:\Code\WallBoy\src\com\val\wallboy" />
+      <recent name="D:\Code\WallBoy\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -277,19 +364,32 @@
       <workItem from="1554579481127" duration="8547000" />
       <workItem from="1554618507752" duration="8022000" />
       <workItem from="1554628537062" duration="2370000" />
-      <workItem from="1554637665203" duration="116000" />
+      <workItem from="1554637665203" duration="571000" />
+      <workItem from="1554639556408" duration="18044000" />
+      <workItem from="1554660817970" duration="659000" />
+      <workItem from="1555867540199" duration="102000" />
+      <workItem from="1555867783486" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19055000" />
+    <option name="totallyTimeSpent" value="38910000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17963752" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823943" visible="true" weight="0.18710022" />
+      <window_info id="Structure" order="1" sideWeight="0.50176054" side_tool="true" weight="0.18123667" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -298,14 +398,14 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47613883" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.38394794" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -313,7 +413,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
@@ -325,8 +425,50 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/val/wallboy/utils/TrayController.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Toolkit.getDefaultToolkit().getImage(new File(&quot;src/val.png&quot;).getAbsolutePath())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(&quot;src/val.png&quot;).getAbsolutePath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(&quot;src/val.png&quot;).exists()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(&quot;src/val.png&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>image = Toolkit.getDefaultToolkit().getImage(&quot;com/val/wallboy/val.png&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>image = Toolkit.getDefaultToolkit().getImage(&quot;src/com/val/wallboy/val.png&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>yourFile.getCanonicalPath()</expression-string>
         <language-id>JAVA</language-id>
@@ -339,26 +481,6 @@
       </expression>
       <expression>
         <expression-string>child</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>root.get(&quot;wallpapers&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>root.get(&quot;wallpaper&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>root</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>root.entrySet().toArray()[1]</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -418,53 +540,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/WallpaperChanger.java" />
     <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/CustomWally.java" />
-    <entry file="jar://$PROJECT_DIR$/lib/platform-3.5.1.jar!/com/sun/jna/platform/win32/WinReg.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/platform-3.5.1.jar!/com/sun/jna/platform/win32/Advapi32Util.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="335" selection-start-line="335" selection-end-line="335" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/source/SourceControl.java">
+    <entry file="jar://$PROJECT_DIR$/lib/platform-3.5.1.jar!/com/sun/jna/platform/win32/WinReg.class" />
+    <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/tests/WinRegistry.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/tests/WindowsRegistry.java" />
+    <entry file="jar://$PROJECT_DIR$/lib/jna-3.5.1.jar!/com/sun/jna/win32/DLLCallback.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="method#getWallpapers#0;class#SourceControl#0" />
-            <element signature="method#saveImage#0;class#SourceControl#0" />
-            <element signature="method#getInputStream#0;class#SourceControl#0" />
-          </folding>
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/platform-3.5.1.jar!/com/sun/jna/platform/win32/Advapi32Util.class" />
+    <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/events/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/events/RunnableObjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/model/Image.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/tests/WinRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/tests/WindowsRegistry.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="93" column="4" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="137" column="13" selection-start-line="137" selection-start-column="13" selection-end-line="137" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/val.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/awt/Toolkit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="922" column="26" selection-start-line="922" selection-start-column="26" selection-end-line="922" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jna-3.5.1.jar!/com/sun/jna/Library.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/events/PubSub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/User32.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/WallThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/utils/TrayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/source/SourceControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -473,8 +669,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+        <state relative-caret-position="442">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/ImageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/val/wallboy/source/ImageDownloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -487,10 +703,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>WallBoy:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2229885" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -502,7 +720,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2229885" />
               </list>
             </option>
           </splitter-proportions>

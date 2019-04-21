@@ -6,7 +6,6 @@ import com.google.gson.internal.LinkedTreeMap;
 import com.val.wallboy.model.Image;
 
 import java.io.*;
-import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
@@ -33,13 +32,38 @@ public class SourceControl {
 
             bobURL.append(scriptAddress)
                     .append("?")
-                    .append("auth=")
+                    .append(urlAuth)
                     .append(authenticationCode)
                     .append("&")
                     .append(urlMethod);
             switch (choice) {
                 case "popular": {
                     bobURL.append("popular");
+                    break;
+                }
+                case "newest": {
+                    bobURL.append("newest");
+                    break;
+                }
+                case "highest_rated": {
+                    bobURL.append("highest_rated");
+                    break;
+                }
+                case "random": {
+                    bobURL.append("random");
+                    break;
+                }
+                case "by_views": {
+                    bobURL.append("by_views");
+                    break;
+                }
+                case "by_favorites": {
+                    bobURL.append("by_favorites");
+                    break;
+                }
+                case "featured": {
+                    bobURL.append("featured");
+                    break;
                 }
             }
 
@@ -50,7 +74,7 @@ public class SourceControl {
             BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
             String result = in.readLine();
             if (result == null) return null;
-            System.out.println(result);
+            //System.out.println(result);
 
             LinkedTreeMap<String, ArrayList<LinkedTreeMap<String, String>>> root = gson.fromJson(result, LinkedTreeMap.class);
             ArrayList<LinkedTreeMap<String, String>> child = root.get("wallpapers");
@@ -82,49 +106,43 @@ public class SourceControl {
         return null;
     }
 
-    public static String saveImage(String urlString) {
-        URL url = null;
+    public static <T> T loadInstance(String path) {
         try {
-            url = new URL(urlString);
+            ObjectInputStream inObject = new ObjectInputStream(new FileInputStream(path));
+            T obj = (T) inObject.readObject();
+            inObject.close();
+            System.out.println(obj.getClass().toString() + " Loaded.");
+            return obj;
+        } catch (FileNotFoundException e) {
+            System.out.println("FileNotFoundException on: " + path);
+            //e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 
-            InputStream in = new BufferedInputStream(getInputStream(url));
-            ByteArrayOutputStream out = new ByteArrayOutputStream();
-            byte[] buf = new byte[1024];
-            int n = 0;
-            while (-1 != (n = in.read(buf))) {
-                out.write(buf, 0, n);
-            }
-            out.close();
-            in.close();
-            byte[] response = out.toByteArray();
-
-            String path = "images/temp.bmp";
-            File newImageFile = new File(path);
-            newImageFile.createNewFile(); // if file already exists will do nothing
-            FileOutputStream fos = new FileOutputStream(newImageFile, false);
-            fos.write(response);
-            fos.close();
-            /*BufferedImage image = ImageIO.read(newImageFile);
-            ImageIO.write(image, "bmp", newImageFile);*/
-
-            return newImageFile.getAbsolutePath();
-        } catch (MalformedURLException e) {
+    public static <T> void saveInstance(T controller, String path) {
+        try {
+            ObjectOutputStream outObject = new ObjectOutputStream(new FileOutputStream(path));
+            outObject.writeObject(controller);
+            outObject.close();
+            System.out.println(controller.getClass().toString() + " saved.");
+        } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return "";
     }
 
-    private static InputStream getInputStream(URL url) {
-        try {
-            HttpURLConnection httpcon = (HttpURLConnection) url.openConnection();
-            httpcon.addRequestProperty("User-Agent", "Mozilla/4.0");
-
-            return httpcon.getInputStream();
-        } catch (IOException e) {
-            String error = e.toString();
-            throw new RuntimeException(e);
+    public static void deleteImage(Image curImg) {
+        File file = new File(curImg.path);
+        if (file.delete()) {
+            System.out.println("Image deleted: " + curImg.path);
+        } else {
+            System.out.println("Failed to delete image");
         }
     }
 }
